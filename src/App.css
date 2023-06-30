@@ -11,20 +11,24 @@ h1,h2,p {
 button.btn {
   font-size: 30px;
 }
+
 #trivia{
   font-size: 60px;
   margin-top: 30px;
 }
+
 .number {
   color: #FFCC00;
   font-weight: bolder;
 }
+
 h1#jServiceTitle {
   font-size: 80px;
 }
 div.container {
   max-width: 900px;
 }
+
 .row {
   justify-content: center;
 }

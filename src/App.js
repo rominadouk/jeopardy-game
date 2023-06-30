@@ -24,7 +24,6 @@ function App() {
 
   const getData = () => {
     axios.get('http://jservice.io/api/random').then((response)=> {
-      // setQuestion(response.data.question)
       setQuestion(response.data[0].question)
       console.log(question)
       setCategory(response.data[0].category.title)
@@ -48,6 +47,7 @@ const increasePoints = () => {
 const decreasePoints = () => {
   setPoints(points - value)
 }
+
   useEffect(() => {
 
   },[]);
