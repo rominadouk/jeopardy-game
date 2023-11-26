@@ -23,9 +23,8 @@ function App() {
 
 
   const getData = () => {
-    axios.get('http://jservice.io/api/random').then((response)=> {
+    axios.get('https://jservice.io/api/random').then((response)=> {
       setQuestion(response.data[0].question)
-      console.log(question)
       setCategory(response.data[0].category.title)
       setValue(response.data[0].value)
       setAnswer(response.data[0].answer)
